@@ -1,0 +1,45 @@
+.contact-page
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+}
+.contact-me
+{
+    height: 400px;
+    width: 500px;
+    background-color: #be9393;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:5px ;
+}
+.names{
+    margin-left: 3px;
+}
+.emails{
+    margin-left: 6px;
+}
+.cells{
+    margin-left: 16px;
+}
+input
+{
+    height: 34px;
+    outline: none;
+}
+button
+{
+    height: 50px;
+    width: 200px;
+    outline: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    margin-left: 39px;
+}
